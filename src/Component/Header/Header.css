@@ -1,0 +1,152 @@
+
+.header{
+    width: 100%;
+    margin-top: -20px;
+    margin: 0;padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;padding: 0;
+}
+.header-list{
+    text-align: center;
+}
+.header-list-title{
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.67px;
+    text-align: center;
+    color: #333333;  
+}
+.header-list-img{
+    background-image: url({Baccol});
+    width: 103px;
+    height: 103px;
+    background: #C5F2CBA6;
+    border-radius: 50%;
+}
+.header-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.header-list-navbar{
+    width: 300px;
+}
+.header-list-text{
+    width: 289.17px;
+    height: 46px;
+    top: 1072.52px;
+    left: 454px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy-Bold;
+    font-size: 18.82px;
+    font-weight: 400;
+    line-height: 23.3px;
+    text-align: center;
+    color: #333333;      
+}
+.header-list-texts{
+    color: #4B9895;
+
+}
+.header-list-btn{
+    width: 304px;
+    height: 74px;
+    top: 1487px;
+    left: 793px;
+    padding: 23px 25px 23px 25px;
+    gap: 10px;
+    border-radius: 59px;
+    border: transparent;
+    opacity: 0px;
+    background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+    box-shadow: 0px 3px 0px 0px #418E8B;
+    font-family: Gill Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.47px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+        
+}
+#header-navbar{
+    text-align: center;
+}
+.header-navbar-title{
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.67px;
+    text-align: center;
+    color: #333333;    
+}
+/* Swiper konteynerini asosiy uslublar */
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 1200px;
+    height: 400px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width:  300px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .header-navbar-btn{
+    width: 304px;
+    margin-top: 50px;
+    height: 74px;
+    top: 1487px;
+    left: 793px;
+    padding: 23px 25px 23px 25px;
+    gap: 10px;
+    border-radius: 59px;
+    border: transparent;
+    opacity: 0px;
+    background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+    box-shadow: 0px 3px 0px 0px #418E8B;
+    font-family: Gill Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.47px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+        
+}

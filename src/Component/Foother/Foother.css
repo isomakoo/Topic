@@ -1,0 +1,129 @@
+.foother{
+width: 100%;margin: 0;padding: 0;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+}
+#foother-list{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 1140px;
+    height: 298px;
+    top: 6829px;
+    left: 362px;
+    gap: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0px;
+    background: linear-gradient(90deg, rgba(125, 202, 199, 0.442) 0%, rgba(197, 242, 203, 0.1365) 129.2%);
+    box-shadow: 0px 0px 45.6px 5px #ABDDB126;    
+}
+.foother-list-title{
+    width: 241px;
+    height: 98px;
+    top: 6883px;
+    left: 505px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy-Medium;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.52px;
+    text-align: left;
+    color: #333333;        
+}
+.foother-list-text{
+    width: 250px;
+    height: 69px;
+    top: 7000px;
+    left: 505px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.56px;
+    text-align: left;
+    color: #333333;        
+}
+.foother-input{
+    width: 330px;
+    padding-left: 20px;
+height: 55px;
+top: 6876px;
+left: 1036px;
+gap: 0px;
+border-radius: 55px;
+margin-bottom: 20px;
+opacity: 0px;
+background: #BFF1C5;
+box-shadow: 0px 4px 12.8px -6px #00000012;
+border: transparent;
+box-shadow: 0px 0px 102.1px 1px #ABDDB1CC inset;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 18.29px;
+text-align: left;
+color: #FFFFFF;  
+}
+.foother-list-btn{
+    width: 300px;
+    height: 64px;
+    top: 7014.15px;
+    left: 1036px;
+    padding: 21.78px 23.67px 21.78px 23.67px;
+    gap: 9.47px;
+    border-radius: 55.86px;
+    opacity: 0px;
+    background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+    box-shadow: 0px 2.84px 0px 0px #418E8B;    
+    font-family: Gill Sans;
+font-size: 17.04px;
+font-weight: 600;
+line-height: 20.33px;
+letter-spacing: 0.01em;
+text-align: center;
+border:  transparent;
+color: #FFFFFF;
+margin-left: 30px;
+}
+.foother-navbar{
+    width: 1200px;
+    height: 150px;
+    top: 7638px;
+    left: 33px;
+    gap: 0px;
+    opacity: 0px;
+    background: #333333;
+}
+.foother-navbar{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.iconslar{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foother-navbar-link{
+    font-family: HelveticaNeueCyr;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15.92px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;   
+}
+.foother-icons{
+   color: white;
+   width: 30px;
+   height: 30px;
+}

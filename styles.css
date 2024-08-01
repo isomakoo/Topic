@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+         url('fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilory';
+    src: url('fonts/Gilory.woff2') format('woff2'),
+         url('fonts/Gilory.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat.woff2') format('woff2'),
+         url('fonts/Montserrat.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('fonts/HelveticaNeueCyr.woff2') format('woff2'),
+         url('fonts/HelveticaNeueCyr.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy-Medium', 'Gilory', 'Montserrat', 'HelveticaNeueCyr', sans-serif;
+    font-weight: 400;
+}
