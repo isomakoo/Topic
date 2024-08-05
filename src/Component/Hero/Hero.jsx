@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Hero.css';
 import logo1 from '../../assets/logo (2).png';
 import topic from '../../assets/topic1.png';
+import Modales from '../Modales/Modales';
 
 function Hero() {
     const scrollToSection = () => {
@@ -42,6 +43,8 @@ function Hero() {
             sidebarNavbar.scrollIntoView({ behavior: 'smooth' });
         }
     };
+    
+
 
     return (
         <div className="hero">
@@ -73,7 +76,7 @@ function Hero() {
                             </a>
                         </li>
                     </ul>
-                    <nav className='hero-ietm'>
+                    <nav className='hero-item'>
                         <a href="tel:+998 (33) 306 0098" className='hero-item-link'>+998 (33) 306 0098</a>
                         <p className='hero-ietm-text'>Hoziroq qo'ng'roq qiling</p>
                     </nav>
@@ -100,9 +103,7 @@ function Hero() {
                                 <p className='hero-content-list-text'>Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati</p>
                             </nav>
                         </nav>
-                        <button className='hero-content-btn' onClick={scrollToSection}>
-                            BEPUL DARSGA YOZDIRISH
-                        </button>
+                        <button onClick={scrollToSection} className="hero-content-btn">BEPUL DARSGA YOZDIRISH</button> 
                         <p className='hero-content-item-text'>Birinchi darsga bepul yoziling!</p>
                     </div>
                     <img src={topic} alt="rasm" className='hero-content-img' />

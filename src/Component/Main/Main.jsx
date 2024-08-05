@@ -7,6 +7,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import { useState } from "react";
+import Modales from "../Modales/Modales";
 
 function Main() {
   const scrollToSection = () => {
@@ -15,6 +17,17 @@ function Main() {
         section.scrollIntoView({ behavior: 'smooth' });
     }
 };
+const [isOpen, setIsOpen] = useState(false);
+
+    const openModal = () => {
+      setIsOpen(true);
+      document.body.style.overflow = 'hidden'; // Scrollni to'xtatish
+    };
+  
+    const closeModal = () => {
+      setIsOpen(false);
+      document.body.style.overflow = 'auto'; // Scrollni qayta yoqish
+    };
   return (
     <>
       <div className="main">
@@ -75,7 +88,8 @@ function Main() {
             <div className="main-navbar-item">
             <p className="main-navbar-title"><span className="span-title">TOPIK academy consulting</span> jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi</p>
             <p className="main-navbar-text">Ko’proq ma’lumot olish uchun bepul konsultatsiyaga yoziling!</p>
-            <button className="main-navbar-btn" onClick={scrollToSection}>Ariza qoldirish</button>
+            <button onClick={openModal} className="main-navbar-btn">Ariza qoldirish</button>
+                        {isOpen && <Modales closeModal={closeModal} />}
             </div>
               <img src={topik1} alt="rasm" className="main-img" />
               <img src={topik1} alt="rasm" className="main-img"/>

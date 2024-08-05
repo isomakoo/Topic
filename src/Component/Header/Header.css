@@ -59,6 +59,7 @@
     width: 304px;
     height: 74px;
     top: 1487px;
+    margin-bottom: 50px;
     left: 793px;
     padding: 23px 25px 23px 25px;
     gap: 10px;
@@ -79,13 +80,18 @@
 #header-navbar{
     text-align: center;
 }
+.swiper-container {
+    direction: rtl;
+}
 .header-navbar-title{
     font-family: Gilroy-Medium;
     font-size: 36px;
+    height: 80px;
     font-weight: 400;
     line-height: 43.67px;
     text-align: center;
-    color: #333333;    
+    color: #333333;
+    margin-bottom: 30px;    
 }
 /* Swiper konteynerini asosiy uslublar */
 #app {

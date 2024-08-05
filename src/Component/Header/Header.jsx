@@ -17,6 +17,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
+import Modales from "../Modales/Modales";
 
 function Header() {
   const scrollToSection = () => {
@@ -24,7 +25,19 @@ function Header() {
     if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
     }
-};
+  };
+  const [isOpen, setIsOpen] = useState(false);
+
+    const openModal = () => {
+      setIsOpen(true);
+      document.body.style.overflow = 'hidden'; // Scrollni to'xtatish
+    };
+  
+    const closeModal = () => {
+      setIsOpen(false);
+      document.body.style.overflow = 'auto'; // Scrollni qayta yoqish
+    };
+
   return (
     <>
       <div className="header">
@@ -80,7 +93,8 @@ function Header() {
                 </p>
               </nav>
             </div>
-            <button className="header-list-btn" onClick={scrollToSection}>HA BU MEN</button>
+            <button onClick={openModal} className="header-list-btn">HA BU MEN</button>
+                        {isOpen && <Modales closeModal={closeModal} />}
           </div>
           <div id="header-navbar">
             <h2 className="header-navbar-title">
@@ -100,33 +114,11 @@ function Header() {
               className="mySwiper"
               loop={true}
             >
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
+              {[...Array(9)].map((_, index) => (
+                <SwiperSlide key={index}>
+                  <img src={topik} alt="rasm" className="header-navbar-img" />
+                </SwiperSlide>
+              ))}
             </Swiper>
             <Swiper
               slidesPerView={4}
@@ -141,36 +133,14 @@ function Header() {
               }}
               modules={[Pagination, Autoplay]}
               className="mySwiper"
-              dir="rtl"
               loop={true}
+              dir="rtl"
             >
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={topik} alt="rasm" className="header-navbar-img" />
-              </SwiperSlide>
+              {[...Array(9)].map((_, index) => (
+                <SwiperSlide key={index}>
+                  <img src={topik} alt="rasm" className="header-navbar-img" />
+                </SwiperSlide>
+              ))}
             </Swiper>
             <button className="header-navbar-btn" onClick={scrollToSection}>Ariza qoldirish</button>
           </div>
