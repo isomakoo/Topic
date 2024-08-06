@@ -112,8 +112,8 @@ function Sidebar() {
                 </ul>
                 <h3 className='sidebar-list-title'>Ko’p beriladigan savollar</h3>
                 <Collapsible title="O’quv materiallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanmi?" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias quas minima assumenda maxime, eligendi odio atque voluptatem corporis quod earum fugit perspiciatis ullam eum, quae pariatur minus totam recusandae, reiciendis possimus. Autem sed tempora suscipit dolores sapiente, quis alias ut labore et, earum, consectetur ipsum ab est quia neque?" />
-                <Collapsible title="Boshqa savol" content="Javobi bu yerda bo'ladi." />
-                <Collapsible title="Yana bir savol" content="Bu savolga javob ham shu yerda." />
+                <Collapsible title="Kurs Narxi" content="Kurs Narxi Kursga qarab bulinadi" />
+                <Collapsible title="Ustozni Topic Darajasi nechi" content="Ustozlarimizni Hammasi Koreyaga borib malaka oshirib kelgan Hozirda topic Darajasi 7 dan baland " />
             </div>
         </div>
     );

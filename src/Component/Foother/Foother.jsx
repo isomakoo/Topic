@@ -92,7 +92,10 @@ function Foother() {
             referrerPolicy="no-referrer-when-downgrade"
             className="foother-kart"
           ></iframe>
-          <div className="foother-navbar">
+        </div>
+      </div>
+      <div className="foother-navbar">
+           <div className="containers">
             <a href="/">
                 <img src={logojon} alt="rasm" />
             </a>
@@ -132,9 +135,8 @@ function Foother() {
                     <FaFacebook className="foother-icons" />
                 </a>
             </nav>
+            </div>
         </div>
-        </div>
-      </div>
     </>
   );
 }

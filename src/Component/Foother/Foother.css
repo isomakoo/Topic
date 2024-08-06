@@ -102,9 +102,16 @@ margin-left: 30px;
     background: #333333;
 }
 .foother-navbar{
+width: 100%;
 display: flex;
 justify-content: space-around;
 align-items: center;
+}
+.containers{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .iconslar{
   width: 300px;
@@ -143,6 +150,9 @@ align-items: center;
    .foother{
     width: 100%;
    }
+   .containers{
+    width: 100%;
+}
 }
 @media (max-width: 700px) {
     #foother-list{
@@ -153,6 +163,7 @@ align-items: center;
     .foother-list-btn{
         margin-bottom: 30px;
     }
+    
 }
 @media (max-width: 700px) {
     .foother-input{
