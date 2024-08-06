@@ -260,6 +260,7 @@ flex-wrap: wrap;
     #sidebar-navbar {
         width: 100%;
         height: auto;
+        padding: 0 !important;
     }
 
     #sidebar-nav {
@@ -270,6 +271,9 @@ flex-wrap: wrap;
     .sidebar-text {
         width: 100%;
         margin-left: 0;
+    }
+    .sidebar-list{
+        padding: 0 !important;
     }
 }
 
@@ -387,6 +391,7 @@ flex-wrap: wrap;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        padding: 0 !important;
     }
     .sidebar-navbar-item{
         width: 48%;
@@ -403,6 +408,7 @@ flex-wrap: wrap;
         justify-content: space-between;
         flex-wrap: wrap;
         width: 100%;
+        padding: 0 !important;
     }
 
     #sidebar-nav {
@@ -465,11 +471,12 @@ flex-wrap: wrap;
     #sidebar-navbar {
         width: 100%;
         margin-left: 0 !important;
+        margin-right: 0 !important;
         flex-wrap: wrap;
+        padding: 0 !important;
         align-items: center;
     }
    .sidebar-navbar-item{
-    margin-right: 50px;
     width: 90% !important;
     margin-left: 0 !important;
    }
@@ -486,7 +493,13 @@ flex-wrap: wrap;
         width: 90% !important;
     }
     .sidebar-list{
+        padding: 0 !important;
         width: 100%;
+        margin: 0 !important;
+    }
+    .sidebar-list-title{
+        font-size: 28px;
+        line-height: 30px;
     }
 }
 
@@ -576,6 +589,11 @@ flex-wrap: wrap;
         width: 100%;
         margin-left: 0;
     }
+    .sidebar-list{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
 }
 
 @media (max-width: 300px) {

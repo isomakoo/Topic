@@ -329,7 +329,7 @@ align-items: center;
         
         @media (max-width: 700px) {
             .container{
-                width: 100%;
+                max-width: 100%;
             }
             .hero-content{
                 width: 100%;
@@ -441,6 +441,13 @@ align-items: center;
             }
             .hero-content-list-text{
                 height: 70px;
+            }
+            .hero-ietm-text{
+                width: 100px;
+                font-size: 10px !important;
+            }
+            .hero-item-link{
+                font-size: 12px;
             }
             .hero-content-list{
                width: 100%;

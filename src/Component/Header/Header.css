@@ -323,6 +323,11 @@
     .container {
       width: 55%;
     }
+    .header-list-btn, .header-navbar-btn{
+      width: 200px;
+      height: 60px;
+      font-size: 18px !important;
+    }
   
     .header-list-title {
       font-size: 22px;
