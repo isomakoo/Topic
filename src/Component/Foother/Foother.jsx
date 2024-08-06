@@ -90,6 +90,7 @@ function Foother() {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            className="foother-kart"
           ></iframe>
           <div className="foother-navbar">
             <a href="/">

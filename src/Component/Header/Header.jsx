@@ -110,6 +110,20 @@ function Header() {
                 delay: 1000,
                 disableOnInteraction: false,
               }}
+              breakpoints={{
+                1000:{
+                  slidesPerView:4,
+                },
+                752: {
+                  slidesPerView: 3,
+                },
+                400: {
+                  slidesPerView: 2,
+                },
+                250: {
+                  slidesPerView: 1,
+                },
+              }}
               modules={[Pagination, Autoplay]}
               className="mySwiper"
               loop={true}
@@ -120,6 +134,7 @@ function Header() {
                 </SwiperSlide>
               ))}
             </Swiper>
+            <div id="swiper-2">
             <Swiper
               slidesPerView={4}
               spaceBetween={5}
@@ -130,6 +145,20 @@ function Header() {
                 delay: 1000,
                 disableOnInteraction: false,
                 reverseDirection: true,
+              }}
+              breakpoints={{
+                1000:{
+                  slidesPerView:4,
+                },
+                752: {
+                  slidesPerView: 3,
+                },
+                400: {
+                  slidesPerView: 2,
+                },
+                250: {
+                  slidesPerView: 1,
+                },
               }}
               modules={[Pagination, Autoplay]}
               className="mySwiper"
@@ -142,6 +171,7 @@ function Header() {
                 </SwiperSlide>
               ))}
             </Swiper>
+                  </div>
             <button className="header-navbar-btn" onClick={scrollToSection}>Ariza qoldirish</button>
           </div>
         </div>

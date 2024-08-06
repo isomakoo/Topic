@@ -91,9 +91,11 @@ const [isOpen, setIsOpen] = useState(false);
             <button onClick={openModal} className="main-navbar-btn">Ariza qoldirish</button>
                         {isOpen && <Modales closeModal={closeModal} />}
             </div>
+             <nav className="images">
               <img src={topik1} alt="rasm" className="main-img" />
               <img src={topik1} alt="rasm" className="main-img"/>
               <img src={topik1} alt="rasm" className="main-img"/>
+              </nav>
            </div>
         </div>
       </div>

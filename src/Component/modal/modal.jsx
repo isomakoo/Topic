@@ -11,7 +11,7 @@ const Collapsible = ({ title, content }) => {
     return (
         <div className="collapsible">
             <div className="collapsible-header" onClick={toggleCollapsible}>
-                <h2>{title}</h2>
+                <h2 className='colabsile-title'>{title}</h2>
                 <button className="collapsible-toggle">{isOpen ? '×' : '+'}</button>
             </div>
             {isOpen && (

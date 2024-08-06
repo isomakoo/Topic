@@ -261,7 +261,7 @@ align-items: center;
             }
             .hero-content-img{
                 top: 40px;
-                width: 580px;
+                width: 550px;
                 height: 500px;
                 right: 250px;
             }
@@ -413,6 +413,7 @@ align-items: center;
                 font-size: 24px;
                 line-height: 24px;
                 width: 100%;
+                height: 100px;
                 text-align: center;
             }
             .hero-content-item{
@@ -433,7 +434,7 @@ align-items: center;
             }
             .hero-content-btn{
                 margin-top: 20px;
-                margin-left:  80px;
+                 margin-left: 60px !important;
             }
             .hero-nav{
                 height: 50px;

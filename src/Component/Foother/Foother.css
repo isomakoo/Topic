@@ -127,3 +127,40 @@ align-items: center;
    width: 30px;
    height: 30px;
 }
+@media (max-width: 1100px) {
+   .container{
+    width: 100%;
+   }
+   #foother-list{
+    width: 100%;
+   }
+   .foother-navbar{
+    width: 100%;
+   }
+   .foother-kart{
+    width: 100%;
+   }
+   .foother{
+    width: 100%;
+   }
+}
+@media (max-width: 700px) {
+    #foother-list{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .foother-list-btn{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 700px) {
+    .foother-input{
+        width: 230px;
+        margin-left: 20px;
+    }
+    .foother-list-btn{
+        width: 250px;
+        margin-left: 20px;
+    }
+}
